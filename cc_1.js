@@ -35,3 +35,22 @@ console.log('accountBalance:', accountBalance); // multiply account balance by 5
 
 accountBalance %= 22
 console.log('accountBalance:', accountBalance); // mod account balance by 22
+
+//Task 4: Comparison Operators
+
+let employeeScore1 = 3
+let employeeScore2 = 5
+
+console.log(employeeScore1 > employeeScore2); // determining if employeeScore1 is greater than employeeScore 2. Output: false
+
+console.log(employeeScore1 < employeeScore2); // determining if employeeScore1 is less than employeeScore 2. Output: true
+
+console.log(employeeScore1 >= employeeScore2); // determining if employeeScore1 is greater than or equal to employeeScore 2. Output: false
+
+console.log(employeeScore1 <= employeeScore2); // determining if employeeScore1 is less than or equal to employeeScore 2. Output: true
+
+console.log(employeeScore1 === employeeScore2); // determining if employeeScore1 is strictly equal to employeeScore 2. Output: false
+
+console.log(employeeScore2 != employeeScore1); // determining if employeeScore1 is strictly equal to employeeScore 2. Output: true
+
+
