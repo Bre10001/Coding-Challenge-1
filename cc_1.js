@@ -38,8 +38,8 @@ console.log('accountBalance:', accountBalance); // mod account balance by 22
 
 //Task 4: Comparison Operators
 
-let employeeScore1 = 3
-let employeeScore2 = 5
+let employeeScore1 = 3;
+let employeeScore2 = 5;
 
 console.log(employeeScore1 > employeeScore2); // determining if employeeScore1 is greater than employeeScore 2. Output: false
 
@@ -53,4 +53,14 @@ console.log(employeeScore1 === employeeScore2); // determining if employeeScore1
 
 console.log(employeeScore2 != employeeScore1); // determining if employeeScore1 is strictly equal to employeeScore 2. Output: true
 
+// Task 5: Logical Operators
+
+let hasKeyCard = true;
+let hasPermission = false;
+
+console.log(hasKeyCard && hasPermission); // determine if user has a keycard and permission. Output: false
+
+console.log(hasKeyCard || hasPermission); // determine if user has a keycard or permission.Output: true
+
+console.log(!hasKeyCard); // negates the boolean value. Output: false
 
